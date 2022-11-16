@@ -8,10 +8,11 @@ $con=conectar();
 
 
 
-function rest(){
+function rest($prstock,$cantidad){
 
 
-$pr_stock - $cantidad;
+$r = $pr_stock - $cantidad;
+return $r;
 
 };
    

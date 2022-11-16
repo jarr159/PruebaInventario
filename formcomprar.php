@@ -28,7 +28,7 @@ $row = mysqli_fetch_array($query);
 </head>
 <body>
 
-<a href="http://localhost/inventario/producto.php">Regresar</a>
+<a href="http://localhost/repositorio/pruebainventario/producto.php">Regresar</a>
 
     <div class="container mt-5">
         <form action="comprar.php" method="POST">

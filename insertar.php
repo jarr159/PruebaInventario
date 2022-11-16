@@ -10,12 +10,13 @@ $con=conectar();
     $pr_peso=$_POST['pr_peso'];
     $pr_precio=$_POST['pr_precio'];
     $pr_stock=$_POST['pr_stock'];
+    $pr_fecha=$_POST['pr_fecha'];
     
    
    
   
 
-    $sql ="INSERT INTO producto VALUES ('$pr_id','$pr_referencia','$pr_precio','$pr_stock','$pr_peso','$pr_categoria','$pr_nombre')";
+    $sql ="INSERT INTO producto VALUES ('$pr_id','$pr_referencia','$pr_precio','$pr_stock','$pr_peso','$pr_categoria','$pr_nombre','$pr_fecha',)";
     $query= mysqli_query($con,$sql);
 
     if ($query) {

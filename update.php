@@ -15,7 +15,7 @@ $con=conectar();
 
 
 
-$sql ="UPDATE producto SET  pr_stock ='$pr_stock',pr_precio ='$pr_precio',pr_nombre ='$pr_nombre',pr_categoria='$pr_categoria',pr_referencia='$pr_referencia',pr_peso='$pr_peso' WHERE pr_id='$pr_id'";
+$sql ="UPDATE producto SET  pr_stock ='$pr_stock',pr_precio ='$pr_precio',pr_nombre ='$pr_nombre',pr_categoria='$pr_categoria',pr_referencia='$pr_referencia',pr_peso='$pr_peso',pr_fecha ='$pr_fecha' WHERE pr_id='$pr_id'";
 
 $query= mysqli_query($con,$sql);
 

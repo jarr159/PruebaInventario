@@ -53,6 +53,8 @@ $row = mysqli_fetch_array($query);
                         <br>
                         <input type="number" class="formm-control mb-3" name="pr_stock" placeholder="stock" >
                         <br>
+                        <input type="date" class="formm-control mb-3" name="pr_fecha" placeholder="fecha" >
+                        <br>
                         
                         <input type="submit" class="btn btn-primary mb-3">
                         <br >
@@ -71,6 +73,7 @@ $row = mysqli_fetch_array($query);
                                 <th>pr_peso</th>
                                 <th>pr_categoria</th>
                                 <th>pr_nombre</th>
+                                <th>pr_fecha</th>
                             </tr>
 
                         </thead>
@@ -100,6 +103,9 @@ $row = mysqli_fetch_array($query);
                                 </th>
                                 <th>
                                     <?php echo $row['pr_nombre']?>
+                                </th>
+                                <th>
+                                    <?php echo $row['pr_fecha']?>
                                 </th>
                               
                               
